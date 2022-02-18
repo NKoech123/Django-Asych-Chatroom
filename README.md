@@ -2,5 +2,5 @@
 
 Reference Documentation:
 - [Channels](https://channels.readthedocs.io/en/stable/#readme)
-- [Channel Layers](https://channels.readthedocs.io/en/latest/topics/channel_layers.html)
+- [Channel-redis](https://pypi.org/project/channels-redis/)
 - [Django Documentation](https://docs.djangoproject.com/en/4.0/)
