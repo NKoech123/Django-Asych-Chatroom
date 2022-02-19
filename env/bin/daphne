@@ -1,4 +1,4 @@
-#!/Users/nicholaskoech/Desktop/Chatroom/env/bin/python3
+#!/Users/nicholaskoech/Desktop/Chatroom/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
