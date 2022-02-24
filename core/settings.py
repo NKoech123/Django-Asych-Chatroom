@@ -120,11 +120,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-import os
-STATIC_ROOT = os.path.join(BASE_DIR, '/')
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
-)
+
 
 ASGI_APPLICATION = "core.routing.application"
 CHANNEL_LAYERS = {
