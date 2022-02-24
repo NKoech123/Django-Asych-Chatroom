@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="templates/style.css">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,7 +37,7 @@
         <script>
        
         const user_username = JSON.parse(document.getElementById('user_username').textContent);
-       
+        //This function pushes client input data (message and admin username) to the backend
         document.querySelector('#submit').onclick = function (e) {
             const messageInputDom = document.querySelector('#input');
             const message = messageInputDom .value;
