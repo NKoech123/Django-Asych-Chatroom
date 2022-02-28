@@ -25,7 +25,7 @@
                         <div class="form-group">
                             <input class="form-control" id="input" type="text"></br>
                         </div>
-                        <input class="btn btn-secondary btn-lg btn-block" id="submit" type="button" value="Send">
+                        <input class="btn" id="submit" type="button" value="Send">
                     </form>
                 </div>
             </div>
@@ -48,7 +48,6 @@
           
             messageInputDom.value = '' ;
         };
-        
 
         const roomName = JSON.parse(document.getElementById('room-name').textContent);
        
@@ -67,6 +66,31 @@
         }
 
         </script>
+
+<style>
+
+body {
+    background-color: #F3EBF6;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn  {
+  cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E040FB);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 01%;
+    font-size: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+</style>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
